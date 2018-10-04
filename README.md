@@ -1,176 +1,83 @@
-## Solving OAB Exams!
+Instalação
 
-### Try it yourself
-
-`racket src/main.rkt 2010-01.xml`
-
-For a quick run, try
-
-`racket src/main.rkt -a data/raw/articles-test/ teste.xml`
-
-It will print an output which is a list of questions of the selected exam with the answers:
-
-`-o simple [default]`
-
-A list containing
-
-    -question (string)
-    -min-dist (number)
-    -best-article (string)
-    -best-answer  (symbol)
-    -correct-answer (symbol)
-    -model-correct? (boolean)
-
-`-o struct-simple`
-
-The model-result-simple struct containing
-
-    -question (number)
-    -min-dist (number)
-    -best-law (string)
-    -best-art (number)
-    -best-answer  (symbol)
-    -correct-answer (symbol)
-    -correct? (boolean)
-
-`-o complete`
-
-The model-result struct containing
-
-    -question (document)
-    -min-dist (number)
-    -best-article (document)
-    -best-answer  (docuemnt)
-    -correct-answer (symbol)
-    -correct? (boolean)
-
-
-#### Distances
-`-d --distance-function`
-
-You may also change the distance function with the short command `-d` or its longer form `--distance-function`. Currently, there are Euclidian Distance `dist` [default] and Cosine Similarities `cos-dist`.
-
-#### Differente Files and File Pahts
-
-You can just add more exams at `data/raw/exams/` and call
-them at `racket src/main.rkt \<your-exam>`.
-
-All the articles are saved at `data/raw/articles/`.
-
-If you need to change this path, you can pass a modifier
-
-`-a --articles-path` to change the articles path
-`-e --exams-path` to change the exams path
-
-### Installing
-
-From root directory, install dependencies with
-
-```
-raco pkg install https://github.com/n3mo/data-science.git
 raco pkg install while-loop
 raco pkg install txexpr
 raco pkg install src/
-```
+raco pkg update --link src
+
+--> colocar o conteudo do projeto no diretório do Racket
+Utilizar a biblioteca de data science: https://github.com/tissenbaum92/data-science
 
 
-if its packages are already intalled, update the dependencies
+Testes:
+2010-1
+(Question:  1 0.013986868375409342 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B A #f) 
+(Question:  2 0.012294041635491066 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B D #f) 
+(Question:  3 0.008521349215787765 Lei: lei-8906 					 | Artigo: 7 D A #f) 
+(Question:  4 0.013339812197335463 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A A #t) 
+(Question:  5 0.017950481183886317 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C B #f) 
+(Question:  7 0.020106986672572706 Lei: lei-8906 					 | Artigo: 7 C D #f) 
+(Question:  8 0.01173943724945713 Lei: codigo-de-etica-e-disciplina  | Artigo: 5 D A #f) 
+(Question:  9 0.012388051399150161 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C C #t) 
+(Question:  10 0.004942170141871929 Lei: lei-8906 					 | Artigo: 7 A D #f) 
 
-`raco pkg update --link src`
+2010-2
+(Question:  81 0.01294775897567983 Lei: codigo-de-etica-e-disciplina  | Artigo: 5 C D #f)  D
+(Question:  82 0.012138948169214354 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C C #t) C
+(Question:  83 0.008914209626391905 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C A #f) A
+(Question:  84 0.011714275623666856 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B A #f) A
+(Question:  85 0.010952119110654978 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A C #f) C
+(Question:  86 0.012837097619943024 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B A #f) A
+(Question:  87 0.01248678596113722 Lei: codigo-de-etica-e-disciplina  | Artigo: 5 B C #f) C
+(Question:  88 0.011737369810605464 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C C #t) C
+(Question:  89 0.009776859348268498 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A C #f) C
 
-### Graph
+2011-03
+(Question:  44 0.01111798307378202 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D C #f)
+(Question:  45 0.009951211527126249 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C B #f)
+(Question:  46 0.012587072152393571 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A A #t)
+(Question:  47 0.013762019579551272 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A B #f)
+(Question:  48 0.012471091222632309 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A B #f)
+(Question:  49 0.012787829538584447 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D D #t)
+(Question:  50 0.011014130189540231 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A A #t)
+(Question:  51 0.010339952646030189 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C B #f)
+(Question:  52 0.01036947541764318 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C A #f)
 
-Struct that defines the node in graph
-```racket
-(struct node (document vector [neineighbors #:mutable #:auto])
-    #:auto-value (list)
-    #:transparent)
-```
+2011-04
+(Question:  1 0.009817082304466828 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B D #f)
+(Question:  2 0.012234321440487694 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B A #f)
+(Question:  3 0.010913460554930934 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D C #f)
+(Question:  4 0.0099951274001415 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C D #f)
+(Question:  5 0.011641120247869494 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D B #f)
+(Question:  6 0.011086030765612456 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A A #t)
+(Question:  7 0.007577321201919545 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B B #t)
+(Question:  8 0.012005137181294846 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B D #f)
+(Question:  9 0.009515577956800622 Lei: lei-8906                     | Artigo: 7 C C #t)
 
-Function that returns Dijkstra algorithm from a distance function
-```racket
-(dij-from dist)
-```
+2011-05
+(Question:  1 0.010981014270276833 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A A #t)
+(Question:  2 0.010326855957293239 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D B #f)
+(Question:  3 0.01029966677187903 Lei: codigo-de-etica-e-disciplina  | Artigo: 5 A B #f)
+(Question:  4 0.010296052824203875 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C B #f)
+(Question:  5 0.009568891066354036 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B C #f)
+(Question:  6 0.012407072199138414 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D D #t)
+(Question:  7 0.011184877078269049 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D C #f)
+(Question:  8 0.011149953830866385 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D D #t)
+(Question:  9 0.012367199979958825 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C C #t)
+(Question:  10 0.009771216725166097 Lei: codigo-de-etica-e-disciplina| Artigo: 5 D C #f)
+(Question:  11 0.01115224751153434 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D B #f)
+(Question:  12 0.01160418047179679 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C C #t)
 
-Transform into graph from question, answers and a list of intermediary layers of articles
-```racket
-(to-graph question answers . list-articles)
-```
-
-Calculates the shortest distance, the best article and the best answer of a graph with a question, an intermediate layer of articles and a final layer of answers
-```racket
-(get-distance-article-answer question articles answers)
-```
-
-
-### TF-IDF
-
-```racket
-(tf-idf corpus)
-```
-
-Calculates **tf-idf vector** for each `Document` in `corpus` and returns:
-
-1. a list of words/tokens found across all statments corresponding to each dimension on the tf-idf vector Space (The order of the list of tokens corresponds to the columns in the returned tf-idf)
-2. a list of Document wherin each `Document`'s `rep` field points to the respective **tf-idf vector**.
-
-`corpus` should be a list of two or more `Documents`.
-
-
-```racket
-;Just a simple corpus
-> (define i1 (item 'a "string item 1"))
-> (define i2 (item 'b "string item 2"))
-> (define doc-item1 (document i1))
-> (define doc-item2 (document i2))
-> (define doc-qt (document (question 1 'a "ethics" "string question 1" (list i1 i2))))
-> (define doc-art (document (article "lei8096" 1 "string article 1")))
-> (define corpus (list doc-qt doc-item1 doc-item2 doc-art))
-
-;Convert a list of strings in a tf-idf matrix
-> (tf-idf corpus)
-(list
- '("article" "string" "item" "question")
- (list
-  (document (question 1 'a "ethics" "string question 1" (list (item 'a "string item 1" 1) (item 'b "string item 2" 1))) '#(0 0 0 0.30102999566398114))
-  (document (item 'a "string item 1" 1) '#(0 0 0.15051499783199057 0))
-  (document (item 'b "string item 2" 1) '#(0 0 0.15051499783199057 0))
-  (document (article "lei8096" 1 "string article 1") '#(0.30102999566398114 0 0 0))))
-```
-
-
-### Coverage
-To execute coverage command, run:
-```bash
-raco cover -f html src
-```
-
-
-### Results
-
-
-Out of 27 exams provided in xml format, 9 had no "AREA" attribute in the questions. Within the remaining 18 exams there were 185 questions identified as an Ethics area question. All of such questions were fed into the program, one exam at a time, and the results will be discussed in a while.
-
-It was also provided a list of possibile justifications for each correct answer, the "golden". It is worth noticing that some Ethics questions have no golden, as well as there is a golden for questions that were not assigned as Ethics. Regardless of having a golden or not, all the correct answers were known.
-
-In the original article (https://arxiv.org/abs/1712.05128) the database had 30 questions and the system could only get 10 correct - providing the correct justification for 8 of them.
-
-This turn,considering only the questions marked as Ethics and with a golden, there was 185 questions in the database. Using cosine as a distance function in our graph, the system managed to get 80 of them correct. Within the Ethics questions with golden the system was correct in 35 out of 82, while associating the correct justification for 14 of those.
-
-As for the group of questions without the golden reference, the system got 45 out of 103 correct. The full results are can be found at results.xlsx.
-
-
-The difference in performance may attributed to how the exams were inputed in the system: all-at-once results in TF-IDF measures different form a one-by-one input. Also, in order to speed up the process and attempt to restrict the corpus to Ethics only, we only inputed in the system the questions marked as Ethics. The files used as such input are in data/raw/exams/ethics/.
-
-Future work is to be made as to wheter or not this differences are relevant (all-at-once vs one-at-a-time and full exam vs Ethics only area). Also, the use of different types of distance (eg: Euclidian) may result in a diferent output. And, as discussed in class, changing the graph structure by say, adding another layer of articles, will probably affect the result. Other possibilities are to combine some or all the variants suggested previuosly in a "voting" system, outputing only the answer and article(s) most "voted".
-
-
-
-### Participações
-| Aluno         | Tarefas                                        |
-| ------------- |:----------------------------------------------:|
-| Guilherme     | Grafos (dijkstra), testes, cobertura de testes |
-| João          | Juntar partes do projeto                       |
-| Hugo          | TF-IDF, Data-Structures e Revisão              |
-| Pedro         | Cálculo de Distâncias                          |
-| Alexandre     | Parser do documento                            |
+2012-06
+(Question:  1 0.012237917953593646 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A B #f)
+(Question:  2 0.008995034312280301 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A C #f)
+(Question:  3 0.011831362598164544 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D B #f)
+(Question:  4 0.009910780969339601 Lei: lei-8906                     | Artigo: 7 B B #t)
+(Question:  5 0.011025254782124533 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A C #f)
+(Question:  6 0.010112138383308829 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A D #f)
+(Question:  7 0.01094751112823408 Lei: codigo-de-etica-e-disciplina  | Artigo: 5 B D #f)
+(Question:  8 0.011945096172826875 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D A #f)
+(Question:  9 0.01093607518271401 Lei: codigo-de-etica-e-disciplina  | Artigo: 5 C D #f)
+(Question:  10 0.01108820414995057 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C D #f)
+(Question:  11 0.01260859791832127 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C B #f)
+(Question:  12 0.011915582312361464 Lei: codigo-de-etica-e-disciplina| Artigo: 5 A C #f)
