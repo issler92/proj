@@ -41,17 +41,17 @@ Testes:
 (Question:  49 0.012787829538584447 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D D #t)\
 (Question:  50 0.011014130189540231 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A A #t)\
 (Question:  51 0.010339952646030189 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C B #f)\
-(Question:  52 0.01036947541764318 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C A #f)\
+(Question:  52 0.01036947541764318 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C A #f)
 
-2011-04
-(Question:  1 0.009817082304466828 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B D #f)
-(Question:  2 0.012234321440487694 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B A #f)
-(Question:  3 0.010913460554930934 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D C #f)
-(Question:  4 0.0099951274001415 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C D #f)
-(Question:  5 0.011641120247869494 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D B #f)
-(Question:  6 0.011086030765612456 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A A #t)
-(Question:  7 0.007577321201919545 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B B #t)
-(Question:  8 0.012005137181294846 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B D #f)
+2011-04\
+(Question:  1 0.009817082304466828 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B D #f)\
+(Question:  2 0.012234321440487694 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B A #f)\
+(Question:  3 0.010913460554930934 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D C #f)\
+(Question:  4 0.0099951274001415 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C D #f)\
+(Question:  5 0.011641120247869494 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D B #f)\
+(Question:  6 0.011086030765612456 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A A #t)\
+(Question:  7 0.007577321201919545 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B B #t)\
+(Question:  8 0.012005137181294846 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B D #f)\
 (Question:  9 0.009515577956800622 Lei: lei-8906                     | Artigo: 7 C C #t)
 
 2011-05\
