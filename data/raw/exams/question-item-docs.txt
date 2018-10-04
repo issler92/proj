@@ -1,0 +1,12 @@
+(#(struct:document #(struct:question 3 A ETHICS De acordo com o Estatuto da Advocacia e da OAB, tem efeito
+suspensivo recurso contra
+ (#(struct:item A decis�o n�o un�nime proferida por conselho seccional. 3)
+#(struct:item B decis�o que trate de elei��es de membros dos �rg�os da OAB. 3)
+#(struct:item C suspens�o preventiva decidida pelo Tribunal de �tica e
+Disciplina. 3)
+#(struct:item D cancelamento da inscri��o obtida com falsa prova. 3))) ()) 
+#(struct:document #(struct:item A decis�o n�o un�nime proferida por conselho seccional. 3) ()) 
+#(struct:document #(struct:item B decis�o que trate de elei��es de membros dos �rg�os da OAB. 3) ()) 
+#(struct:document #(struct:item C suspens�o preventiva decidida pelo Tribunal de �tica e
+Disciplina. 3) ()) 
+#(struct:document #(struct:item D cancelamento da inscri��o obtida com falsa prova. 3) ()))

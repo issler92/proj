@@ -1,0 +1,1 @@
+("7.0" ("85dcc0e15b59c90a3ad5291285c9f87e0a34e3da" . "d926dbc9bdac16bbf947108a6da9c48f44d3a35f") (collects #"racket" #"base.rkt") (collects #"racket" #"list.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"racket" #"string.rkt") (collects #"src" #"data-structures.rkt") (collects #"txexpr" #"main.rkt") (collects #"xml" #"main.rkt") (collects #"xml" #"path.rkt"))

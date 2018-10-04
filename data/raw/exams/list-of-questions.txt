@@ -1,0 +1,263 @@
+(
+
+(#(struct:document #(struct:question 1 A ETHICS J�lio e Lauro constitu�ram o mesmo advogado para, juntos, ajuizarem
+a��o de interesse comum. No curso do processo, sobrevieram conflitos
+de interesse entre os constituintes, tendo J�lio deixado de concordar
+com Lauro com rela��o aos pedidos.
+Nessa situa��o hipot�tica, deve o advogado
+ (#(struct:item A optar, com prud�ncia e discernimento, por um dos mandatos,
+e renunciar ao outro, resguardando o sigilo profissional. 1)
+#(struct:item B manter com os constituintes contrato de presta��o de servi�os
+jur�dicos no interesse da causa, resguardando o sigilo
+profissional. 1)
+#(struct:item C assumir, com a cautela que lhe � peculiar, o patroc�nio de
+ambos, em a��es individuais. 1)
+#(struct:item D designar, com prud�ncia e cautela, por substabelecimento com
+reservas, um advogado de sua confian�a. 1))) ()) 
+#(struct:document #(struct:item A optar, com prud�ncia e discernimento, por um dos mandatos,
+e renunciar ao outro, resguardando o sigilo profissional. 1) ()) 
+#(struct:document #(struct:item B manter com os constituintes contrato de presta��o de servi�os
+jur�dicos no interesse da causa, resguardando o sigilo
+profissional. 1) ()) 
+#(struct:document #(struct:item C assumir, com a cautela que lhe � peculiar, o patroc�nio de
+ambos, em a��es individuais. 1) ()) 
+#(struct:document #(struct:item D designar, com prud�ncia e cautela, por substabelecimento com
+reservas, um advogado de sua confian�a. 1) ())) 
+
+(#(struct:document #(struct:question 2 D ETHICS M�rio, advogado regularmente inscrito na OAB, foi
+condenado pela pr�tica de crime hediondo e, ap�s a senten�a penal
+transitada em julgado, respondeu a processo disciplinar, tendo
+sofrido, como consequ�ncia, penalidade de exclus�o da Ordem. 
+Considerando a situa��o hipot�tica apresentada e o Estatuto da
+Advocacia e da OAB, assinale a op��o correta.
+ (#(struct:item A Ainda que se reabilite criminalmente, M�rio n�o poder� mais
+se inscrever na OAB, visto que n�o preenche o requisito de
+idoneidade moral. 2)
+#(struct:item B Ser�o considerados inexistentes os atos privativos de
+advogado praticados por M�rio ap�s a exclus�o, dado o
+impedimento do exerc�cio do mandato em raz�o da san��o
+disciplinar aplicada. 2)
+#(struct:item C A penalidade de exclus�o somente poderia ter sido aplicada
+caso M�rio tivesse recebido tr�s suspens�es. 2)
+#(struct:item D Supondo-se que o processo disciplinar tenha ficado paralisado
+por mais de tr�s anos, aguardando o julgamento, a pretens�o
+� punibilidade de M�rio estaria prescrita e ele n�o poderia ser
+exclu�do da Ordem. 2))) ()) 
+#(struct:document #(struct:item A Ainda que se reabilite criminalmente, M�rio n�o poder� mais
+se inscrever na OAB, visto que n�o preenche o requisito de
+idoneidade moral. 2) ()) 
+#(struct:document #(struct:item B Ser�o considerados inexistentes os atos privativos de
+advogado praticados por M�rio ap�s a exclus�o, dado o
+impedimento do exerc�cio do mandato em raz�o da san��o
+disciplinar aplicada. 2) ()) 
+#(struct:document #(struct:item C A penalidade de exclus�o somente poderia ter sido aplicada
+caso M�rio tivesse recebido tr�s suspens�es. 2) ()) 
+#(struct:document #(struct:item D Supondo-se que o processo disciplinar tenha ficado paralisado
+por mais de tr�s anos, aguardando o julgamento, a pretens�o
+� punibilidade de M�rio estaria prescrita e ele n�o poderia ser
+exclu�do da Ordem. 2) ())) 
+
+(#(struct:document #(struct:question 3 A ETHICS De acordo com o Estatuto da Advocacia e da OAB, tem efeito
+suspensivo recurso contra
+ (#(struct:item A decis�o n�o un�nime proferida por conselho seccional. 3)
+#(struct:item B decis�o que trate de elei��es de membros dos �rg�os da OAB. 3)
+#(struct:item C suspens�o preventiva decidida pelo Tribunal de �tica e
+Disciplina. 3)
+#(struct:item D cancelamento da inscri��o obtida com falsa prova. 3))) ()) 
+#(struct:document #(struct:item A decis�o n�o un�nime proferida por conselho seccional. 3) ()) 
+#(struct:document #(struct:item B decis�o que trate de elei��es de membros dos �rg�os da OAB. 3) ()) 
+#(struct:document #(struct:item C suspens�o preventiva decidida pelo Tribunal de �tica e
+Disciplina. 3) ()) 
+#(struct:document #(struct:item D cancelamento da inscri��o obtida com falsa prova. 3) ())) 
+
+(#(struct:document #(struct:question 4 A ETHICS Assinale a op��o correta de acordo com as disposi��es do
+Regulamento Geral do Estatuto da Advocacia e da OAB.
+ (#(struct:item A O compromisso que o requerente � inscri��o nos quadros da
+OAB deve fazer perante o conselho seccional, a diretoria ou o
+conselho da subse��o � indeleg�vel, haja vista sua natureza
+solene e personal�ssima. 4)
+#(struct:item B Toda vez que figurar como indiciado em inqu�rito policial, por
+qualquer esp�cie de infra��o, o advogado deve ser assistido por
+um representante da OAB, sem preju�zo da atua��o de seu
+defensor. 4)
+#(struct:item C � vedado ao requerente pleitear inscri��o nos quadros da OAB
+sem ter, regularmente registrado, diploma de bacharel em
+direito, n�o suprindo sua falta nenhum outro documento. 4)
+#(struct:item D O estagi�rio inscrito na OAB pode praticar, isoladamente, todos
+os atos pr�prios de advogado, desde que sua inscri��o esteja
+regular. 4))) ()) 
+#(struct:document #(struct:item A O compromisso que o requerente � inscri��o nos quadros da
+OAB deve fazer perante o conselho seccional, a diretoria ou o
+conselho da subse��o � indeleg�vel, haja vista sua natureza
+solene e personal�ssima. 4) ()) 
+#(struct:document #(struct:item B Toda vez que figurar como indiciado em inqu�rito policial, por
+qualquer esp�cie de infra��o, o advogado deve ser assistido por
+um representante da OAB, sem preju�zo da atua��o de seu
+defensor. 4) ()) 
+#(struct:document #(struct:item C � vedado ao requerente pleitear inscri��o nos quadros da OAB
+sem ter, regularmente registrado, diploma de bacharel em
+direito, n�o suprindo sua falta nenhum outro documento. 4) ()) 
+#(struct:document #(struct:item D O estagi�rio inscrito na OAB pode praticar, isoladamente, todos
+os atos pr�prios de advogado, desde que sua inscri��o esteja
+regular. 4) ())) 
+
+(#(struct:document #(struct:question 5 B ETHICS Acerca das infra��es e san��es disciplinares, assinale a op��o
+correta.
+ (#(struct:item A Considere que uma advogada inscrita na OAB receba,
+adiantadamente, honor�rios contratuais de seu cliente, mas n�o
+preste o servi�o jur�dico contratado. Nessa situa��o hipot�tica,
+a advogada tem direito � quantia recebida, visto que sua
+conduta n�o configura locupletamento � custa do cliente. 5)
+#(struct:item B Cometer� infra��o disciplinar o advogado que receber dinheiro
+de cliente para pagar parcelas de financiamento e proceder, sem
+autoriza��o, � compensa��o com honor�rios que ele alegue
+devidos. 5)
+#(struct:item C Considere que um advogado, ap�s ser notificado pelo juiz para
+devolver os autos que retenha al�m do prazo, n�o atenda ao
+mandado, tampouco ao de busca e apreens�o. Nessa situa��o
+hipot�tica, embora n�o incida em nenhuma infra��o disciplinar
+perante a OAB, dever� o advogado arcar com o �nus processual
+de sua conduta.. 5)
+#(struct:item D O advogado que esteja em d�bito com plurais contribui��es e
+multas perante a OAB e que, mesmo regularmente intimado,
+mantenha-se inadimplente, dever� responder por infra��o
+disciplinar e pelo crime de charlatanismo. 5))) ()) 
+#(struct:document #(struct:item A Considere que uma advogada inscrita na OAB receba,
+adiantadamente, honor�rios contratuais de seu cliente, mas n�o
+preste o servi�o jur�dico contratado. Nessa situa��o hipot�tica,
+a advogada tem direito � quantia recebida, visto que sua
+conduta n�o configura locupletamento � custa do cliente. 5) ()) 
+#(struct:document #(struct:item B Cometer� infra��o disciplinar o advogado que receber dinheiro
+de cliente para pagar parcelas de financiamento e proceder, sem
+autoriza��o, � compensa��o com honor�rios que ele alegue
+devidos. 5) ()) 
+#(struct:document #(struct:item C Considere que um advogado, ap�s ser notificado pelo juiz para
+devolver os autos que retenha al�m do prazo, n�o atenda ao
+mandado, tampouco ao de busca e apreens�o. Nessa situa��o
+hipot�tica, embora n�o incida em nenhuma infra��o disciplinar
+perante a OAB, dever� o advogado arcar com o �nus processual
+de sua conduta.. 5) ()) 
+#(struct:document #(struct:item D O advogado que esteja em d�bito com plurais contribui��es e
+multas perante a OAB e que, mesmo regularmente intimado,
+mantenha-se inadimplente, dever� responder por infra��o
+disciplinar e pelo crime de charlatanismo. 5) ())) 
+
+(#(struct:document #(struct:question 6 A ETHICS Assinale a op��o correta acerca da situa��o do advogado como
+empregado, de acordo com as disposi��es do Estatuto da
+Advocacia e da OAB.
+ (#(struct:item A O advogado empregado n�o est� obrigado � presta��o de
+servi�os profissionais de interesse pessoal, fora da rela��o de
+emprego. 6)
+#(struct:item B Nas causas em que for parte empregador de direito privado, os
+honor�rios de sucumb�ncia ser�o devidos a ele, empregador,
+e n�o, aos advogados empregados. 6)
+#(struct:item C Considera-se jornada de trabalho o per�odo em que o
+advogado esteja � disposi��o do empregador, aguardando ou
+executando ordens no �mbito do escrit�rio, n�o sendo
+consideradas as horas trabalhadas em atividades externas. 6)
+#(struct:item D A rela��o de emprego, no que se refere ao advogado, n�o
+retira a isen��o t�cnica inerente � advocacia, mas reduz a
+independ�ncia profissional, visto que o advogado deve atuar
+de acordo com as orienta��es de seus superiores hier�rquicos. 6))) ()) 
+#(struct:document #(struct:item A O advogado empregado n�o est� obrigado � presta��o de
+servi�os profissionais de interesse pessoal, fora da rela��o de
+emprego. 6) ()) 
+#(struct:document #(struct:item B Nas causas em que for parte empregador de direito privado, os
+honor�rios de sucumb�ncia ser�o devidos a ele, empregador,
+e n�o, aos advogados empregados. 6) ()) 
+#(struct:document #(struct:item C Considera-se jornada de trabalho o per�odo em que o
+advogado esteja � disposi��o do empregador, aguardando ou
+executando ordens no �mbito do escrit�rio, n�o sendo
+consideradas as horas trabalhadas em atividades externas. 6) ()) 
+#(struct:document #(struct:item D A rela��o de emprego, no que se refere ao advogado, n�o
+retira a isen��o t�cnica inerente � advocacia, mas reduz a
+independ�ncia profissional, visto que o advogado deve atuar
+de acordo com as orienta��es de seus superiores hier�rquicos. 6) ())) 
+
+(#(struct:document #(struct:question 7 D ETHICS Referentemente � cobran�a de honor�rios advocat�cios, assinale a op��o
+correta.
+ (#(struct:item A A a��o de cobran�a de honor�rios prescreve em cinco anos, sendo o
+prazo contado, necessariamente, a partir do vencimento do contrato,
+cuja juntada � imprescind�vel. 7)
+#(struct:item B O prazo prescricional da a��o de cobran�a de honor�rios depende do
+tipo de trabalho profissional contratado e � contado a partir do
+tr�nsito em julgado da decis�o que os fixar. 7)
+#(struct:item C O advogado substabelecido com reserva de poderes pode cobrar
+honor�rios proporcionais ao trabalho realizado, sem a interven��o
+daquele que lhe conferiu o substabelecimento. 7)
+#(struct:item D A decis�o judicial que arbitrar honor�rios e o contrato
+escrito que o estipular s�o t�tulos executivos e constituem cr�dito
+privilegiado na fal�ncia e na liquida��o extrajudicial, entre outras
+situa��es. 7))) ()) 
+#(struct:document #(struct:item A A a��o de cobran�a de honor�rios prescreve em cinco anos, sendo o
+prazo contado, necessariamente, a partir do vencimento do contrato,
+cuja juntada � imprescind�vel. 7) ()) 
+#(struct:document #(struct:item B O prazo prescricional da a��o de cobran�a de honor�rios depende do
+tipo de trabalho profissional contratado e � contado a partir do
+tr�nsito em julgado da decis�o que os fixar. 7) ()) 
+#(struct:document #(struct:item C O advogado substabelecido com reserva de poderes pode cobrar
+honor�rios proporcionais ao trabalho realizado, sem a interven��o
+daquele que lhe conferiu o substabelecimento. 7) ()) 
+#(struct:document #(struct:item D A decis�o judicial que arbitrar honor�rios e o contrato
+escrito que o estipular s�o t�tulos executivos e constituem cr�dito
+privilegiado na fal�ncia e na liquida��o extrajudicial, entre outras
+situa��es. 7) ()))
+
+(#(struct:document #(struct:question 8 A ETHICS Prescinde-se de constitui��o de advogado regularmente inscrito na OAB
+para o ajuizamento de a��o na 1.� inst�ncia da justi�a do trabalho,
+a��o, no valor de at� vinte sal�rios m�nimos, no juizado especial
+c�vel,
+ (#(struct:item A e habeas corpus. 8)
+#(struct:item B habeas corpus e a��o popular. 8)
+#(struct:item C habeas corpus e mandado de seguran�a. 8)
+#(struct:item D e mandado de seguran�a. 8))) ()) 
+#(struct:document #(struct:item A e habeas corpus. 8) ()) 
+#(struct:document #(struct:item B habeas corpus e a��o popular. 8) ()) 
+#(struct:document #(struct:item C habeas corpus e mandado de seguran�a. 8) ()) 
+#(struct:document #(struct:item D e mandado de seguran�a. 8) ()))
+
+(#(struct:document #(struct:question 9 C ETHICS Em obedi�ncia ao que disp�e o Estatuto da Advocacia e da OAB, o
+advogado que, por motivos pessoais, n�o mais deseje continuar
+patrocinando determinada causa deve
+ (#(struct:item A renunciar ao mandato e continuar representando seu cliente por
+trinta dias, salvo se este constituir novo advogado antes do t�rmino
+do prazo. 9)
+#(struct:item B fazer um substabelecimento sem reservas de poderes para outro
+advogado e depois comunicar o fato ao cliente. 9)
+#(struct:item C comunicar ao cliente a ren�ncia ao mandato e funcionar no
+processo nos dez dias subsequentes, caso outro advogado n�o se
+habilite antes. 9)
+#(struct:item D comunicar ao cliente a desist�ncia do mandato e indicar outro
+advogado para a causa, o qual deve ser, obrigatoriamente, contratado
+pelo cliente. 9))) ()) 
+#(struct:document #(struct:item A renunciar ao mandato e continuar representando seu cliente por
+trinta dias, salvo se este constituir novo advogado antes do t�rmino
+do prazo. 9) ()) 
+#(struct:document #(struct:item B fazer um substabelecimento sem reservas de poderes para outro
+advogado e depois comunicar o fato ao cliente. 9) ()) 
+#(struct:document #(struct:item C comunicar ao cliente a ren�ncia ao mandato e funcionar no
+processo nos dez dias subsequentes, caso outro advogado n�o se
+habilite antes. 9) ()) 
+#(struct:document #(struct:item D comunicar ao cliente a desist�ncia do mandato e indicar outro
+advogado para a causa, o qual deve ser, obrigatoriamente, contratado
+pelo cliente. 9) ())) 
+
+(#(struct:document #(struct:question 10 D ETHICS Ao conselho da subse��o compete
+ (#(struct:item A representar a OAB no Conselho de Seguran�a do MERCOSUL.
+ 10)
+#(struct:item B fiscalizar as fun��es e atribui��es do conselho seccional.
+ 10)
+#(struct:item C instaurar e instruir processos disciplinares, para julgamento pelo
+Conselho Federal.  10)
+#(struct:item D receber pedido de inscri��o nos quadros de advogado e
+estagi�rio, instruindo e emitindo parecer pr�vio, para decis�o do
+conselho seccional. 10))) ()) 
+#(struct:document #(struct:item A representar a OAB no Conselho de Seguran�a do MERCOSUL. 10) ()) 
+#(struct:document #(struct:item B fiscalizar as fun��es e atribui��es do conselho seccional. 10) ()) 
+#(struct:document #(struct:item C instaurar e instruir processos disciplinares, para julgamento pelo
+Conselho Federal. 10) ())
+#(struct:document #(struct:item D receber pedido de inscri��o nos quadros de advogado e
+estagi�rio, instruindo e emitindo parecer pr�vio, para decis�o do
+conselho seccional.10) ()))
+
+ )

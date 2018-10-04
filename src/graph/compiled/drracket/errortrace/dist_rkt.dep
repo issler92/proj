@@ -1,0 +1,1 @@
+("7.0" ("bef72678851e0f861737a6a89fdc294fd19c1221" . "c70d122381f5103b291a12fe1f5091ab550c2429") (collects #"errortrace" #"errortrace-key.rkt") (collects #"math" #"matrix.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt") (collects #"src" #"tfidf" #"tfidf.rkt"))
