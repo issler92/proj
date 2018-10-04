@@ -3,7 +3,7 @@ Instalação
 raco pkg install while-loop\
 raco pkg install txexpr\
 raco pkg install src/\
-raco pkg update --link src\
+raco pkg update --link src
 
 --> colocar o conteudo do projeto no diretório do Racket\
 Utilizar a biblioteca de data science: https://github.com/tissenbaum92/data-science
