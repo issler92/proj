@@ -80,4 +80,4 @@ Testes:
 (Question:  9 0.01093607518271401 Lei: codigo-de-etica-e-disciplina  | Artigo: 5 C D #f)\
 (Question:  10 0.01108820414995057 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C D #f)\
 (Question:  11 0.01260859791832127 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C B #f)\
-(Question:  12 0.011915582312361464 Lei: codigo-de-etica-e-disciplina| Artigo: 5 A C #f)\
+(Question:  12 0.011915582312361464 Lei: codigo-de-etica-e-disciplina| Artigo: 5 A C #f)
