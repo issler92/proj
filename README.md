@@ -30,7 +30,7 @@ Testes:\
 (Question:  86 0.012837097619943024 Lei: codigo-de-etica-e-disciplina | Artigo: 5 B A #f)\
 (Question:  87 0.01248678596113722 Lei: codigo-de-etica-e-disciplina  | Artigo: 5 B C #f)\
 (Question:  88 0.011737369810605464 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C C #t)\
-(Question:  89 0.009776859348268498 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A C #f)\
+(Question:  89 0.009776859348268498 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A C #f)
 
 2011-03\
 (Question:  44 0.01111798307378202 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D C #f)\
@@ -66,7 +66,7 @@ Testes:\
 (Question:  9 0.012367199979958825 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C C #t)\
 (Question:  10 0.009771216725166097 Lei: codigo-de-etica-e-disciplina| Artigo: 5 D C #f)\
 (Question:  11 0.01115224751153434 Lei: codigo-de-etica-e-disciplina | Artigo: 5 D B #f)\
-(Question:  12 0.01160418047179679 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C C #t)\
+(Question:  12 0.01160418047179679 Lei: codigo-de-etica-e-disciplina | Artigo: 5 C C #t)
 
 2012-06\
 (Question:  1 0.012237917953593646 Lei: codigo-de-etica-e-disciplina | Artigo: 5 A B #f)\
